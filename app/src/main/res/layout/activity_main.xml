@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.rodak.pinkbowlingclub.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#bd000000"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="6dp"
+                android:text="PINK BOWLING &amp; CLUB"
+                android:textColor="#99ffffff"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+        <LinearLayout style="@style/layoutStyle">
+
+            <ImageView
+                style="@style/iconsStyle"
+                android:src="@drawable/ic_location" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="@string/location" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/layoutStyle">
+
+            <ImageView
+                style="@style/iconsStyle"
+                android:src="@drawable/ic_time" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="@string/time" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layoutStyle">
+
+            <ImageView
+                style="@style/iconsStyle"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="@string/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layoutStyle">
+
+            <ImageView
+                style="@style/iconsStyle"
+                android:src="@drawable/ic_mail" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="@string/email" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
