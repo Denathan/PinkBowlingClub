@@ -6,7 +6,7 @@
 
 **Project Description:** Design and implement a single screen app that displays information about a small business that you are closely familiar with.
 
-**What I learnt:**
+**What I've learned:**
  - to build layouts
  - to create ViewGroups
  - to work with value files
